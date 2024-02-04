@@ -1,0 +1,38 @@
+.parent {
+    min-height: 90vh;
+}
+
+h1,
+i {
+    color: var(--header-color);
+}
+
+.line {
+    background-color: var(--header-color);
+}
+
+.input-label {
+    transition: all .5s;
+    top: 30px;
+    opacity: 0;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.show {
+    top: 0px;
+    opacity: 1;
+}
+
+.max-w-60 {
+    max-width: 60%;
+}
+
+@media screen and (max-width:992px) {
+    .max-w-60 {
+        max-width: 100%;
+    }
+}

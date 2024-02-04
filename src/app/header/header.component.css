@@ -1,0 +1,37 @@
+
+
+.background-color{
+    background-color: var(--header-color);
+    color: white;
+}
+.nav-logo{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+nav{
+    transition: .6s padding;
+    --bs-navbar-padding-y : 20px ;
+}
+nav:hover{
+    --bs-navbar-padding-y : 35px ;
+}
+.customPadding{
+    --bs-navbar-padding-y : 35px ;
+}
+nav a {
+    color: white;
+    font-weight: bold;    
+    margin-inline-end: 20px;
+    padding-inline: 5px;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 10px;
+
+}
+.navbar-toggler{
+    color: white;
+}

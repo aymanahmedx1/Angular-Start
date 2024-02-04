@@ -1,0 +1,41 @@
+.parent{
+    min-height: 80vh;
+}
+h1 ,i{
+    color:  var(--header-color);
+
+}
+.line {
+    background-color:  var(--header-color);
+}
+.content:hover .overlay{
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1abc9ce6;
+    transition: .5s all;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+.custom-modal{
+    background-color: rgba(13,110,253,.25);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.image-width{
+    width: 50%;
+}
+@media screen and (max-width:992px) {
+    .image-width{
+        width: 80%;
+    }
+}

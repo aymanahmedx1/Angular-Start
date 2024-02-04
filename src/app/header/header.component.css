@@ -35,3 +35,10 @@ nav a {
 .navbar-toggler{
     color: white;
 }
+
+
+@media screen and (max-width:480px) {
+    .nav-logo{
+        font-size: 25px;
+    }
+}
